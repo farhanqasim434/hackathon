@@ -1,0 +1,87 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+nav {
+    height: 19VH;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0%;
+    align-items: center;
+}
+.nav-left {
+    margin-left: 4vw;
+}
+.nav-right {
+    display: flex;
+    gap: 25px;
+    margin-right: 4vw;
+}    
+.full {
+    height: 81vh;
+    width: 100%;
+    display: flex;
+}
+.section-left {
+    align-items: center;
+    margin-left: 9vw;
+    margin-top: 22vh;
+    width: 50%;
+}
+.section-left h1{
+    font-size: 11vh;
+    font-weight: 1800;
+    color: rgba(23, 22, 22, 0.687);
+}
+.section-left p{
+    color: gray;
+    margin-top: 2vh;
+    font-size: large;
+}
+.section-left button {
+    margin-top: 12vh;
+    padding: 15px;
+    color: gray;
+    background-color: transparent;
+    border-left: 0;
+}
+.fixed {
+     width: 10vw;
+     display: flex;
+     height: 6vh;
+     position: fixed;
+     right: 0;
+     top: 32vh;
+     align-items: center;
+     
+}
+.fixed button{
+    color: black; 
+    width: 10vw;
+    height: 6vh;
+    background-color: transparent;
+    padding: 15px;
+}
+.nav-right h3 {
+    display: inline-block;
+}
+.section-right {
+    width: 50%;
+}
+.right-most button {
+    padding: 20px;
+    margin-top: 10vh;
+    background-color: transparent;
+    border-color: aliceblue;
+    border-style: solid;
+}
+.right-most button:hover {
+    background-color: rgba(7, 11, 236, 0.952);
+    color: white;
+}
